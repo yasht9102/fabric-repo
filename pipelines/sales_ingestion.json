@@ -1,0 +1,8 @@
+{
+  "pipeline_name": "pl_sales_ingestion",
+  "source": "csv",
+  "target": "lakehouse.sales",
+  "load_type": "incremental",
+  "schedule": "daily",
+  "description": "Ingests sales CSV data into Lakehouse sales table"
+}
